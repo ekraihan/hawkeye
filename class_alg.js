@@ -51,8 +51,8 @@ todos.forEach((todo) => {
 var data_matrix = new Matrix(data_matrix)
 var final_data = data_matrix.mmul(new Matrix([
                             [.1],
-                            [.1],
-                            [.8]
+                            [.2],
+                            [.7]
                         ])).to1DArray()
 
 final_data.forEach((data,index) => {
@@ -67,7 +67,7 @@ var orderd_work = alasql("Select name, _class, due, rating, time_u, importance f
     + "\n"
     + "  Due: " + object.due
     + "\n"
-    + "  Rating: " + object.rating.toFixed(2)
+    + "  Rating: " + object.rating.toFixed(4)
     + "\n").reverse()
 
 orderd_work.forEach(thing => console.log(thing))
