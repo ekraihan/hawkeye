@@ -68,9 +68,7 @@ var orderd_work = alasql("Select name, _class, due, rating, time_u, importance f
     + "  Due: " + object.due
     + "\n"
     + "  Rating: " + object.rating.toFixed(2)
-    + "\n"
-    + "  Importance: " + object.importance.toFixed(1)
-    + "\n")
+    + "\n").reverse()
 
 orderd_work.forEach(thing => console.log(thing))
 
