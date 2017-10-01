@@ -46,13 +46,12 @@ todos.forEach((todo) => {
     todo_row.push(todo.urgency)
     data_matrix.push(todo_row)
 })
-// var data_matrix = console.log(alasql("SELECT _class, name FROM ?", [all]))
 
 var data_matrix = new Matrix(data_matrix)
 var final_data = data_matrix.mmul(new Matrix([
                             [.1],
-                            [.2],
-                            [.7]
+                            [.4],
+                            [.5]
                         ])).to1DArray()
 
 final_data.forEach((data,index) => {
