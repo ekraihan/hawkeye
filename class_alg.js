@@ -38,7 +38,7 @@ todos.forEach((todo, index) => {
     todos[index].time_u = todos_untouched[index].time
     if (new Date(todo.due) < new Date()) {
       console.log("***************************************************")
-      console.log("Date in the past for \"" + todos[index]._class + " " + todos[index].name + "\"!!!")
+      console.log("Date in the past for \"" + todos[index]._class + " " + todos[index].name + "!!!")
       console.log("***************************************************")
       throw "Invalid Date";
     }
