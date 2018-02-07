@@ -8,6 +8,7 @@
   `due`: Due Date in the format 'YYYY MMM D HH:MM'<br>
   `time`: Estimated time to complete assignment<br>
   `importance`: Importance of assignment on a scale of 0 to 1<br>
+  
 3. Run `node class_alg` to run the algorithm. It will print out all your todos in the recommended schedule.
 
 ### 2 NOTES!!!
