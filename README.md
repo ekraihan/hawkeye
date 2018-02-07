@@ -1,4 +1,5 @@
-# Class Scheduler
+# Hawkeye
+Hawkeye is a class scheduler designed to help you know what tasks to complete next in your busy life. Here are the steps to get started.
 
 1. run `npm install`
 2. In `todo.json`, in the `todos` array, there is an example school assignment. Fill out this array with all your todos. The format of each todo is
