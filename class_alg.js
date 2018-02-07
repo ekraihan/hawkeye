@@ -55,9 +55,9 @@ todos.forEach((todo) => {
 
 var data_matrix = new Matrix(data_matrix)
 var final_data = data_matrix.mmul(new Matrix([
-                            [.1],
-                            [.4],
-                            [.5]
+                            [.6],
+                            [.2],
+                            [.2]
                         ])).to1DArray()
 
 final_data.forEach((data,index) => {
