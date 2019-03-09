@@ -1,11 +1,203 @@
 {
     "todos": [
         {
-            "_class": "Machine Learning",
-            "name": "Homework",
-            "due": "2018 Feb 8 13:30",
-            "time": 25,
-            "importance": 1.0
+            "_class": "Cloud Computing",
+            "name": "Quiz",
+            "due": "2019 March 24 23:59",
+            "time": 6,
+            "importance": 1
+        },
+        {
+            "_class": "Cloud Computing",
+            "name": "Midterm",
+            "due": "2019 March 15 23:59",
+            "time": 17,
+            "importance": 1
+        },
+        {
+            "_class": "Cloud Computing",
+            "name": "MP3",
+            "due": "2019 March 24 23:59",
+            "time": 11,
+            "importance": 0.9
+        },
+        {
+            "_class": "Cloud Computing",
+            "name": "Project Progress Report",
+            "due": "2019 March 31 23:59",
+            "time": 30,
+            "importance": 1
+        },
+        {
+            "_class": "Cloud Computing",
+            "name": "Quiz",
+            "due": "2019 March 31 23:59",
+            "time": 5,
+            "importance": 1
+        },
+        {
+            "_class": "Cloud Computing",
+            "name": "Quiz",
+            "due": "2019 April 7 23:59",
+            "time": 5,
+            "importance": 1
+        },
+        {
+            "_class": "Cloud Computing",
+            "name": "MP4",
+            "due": "2019 April 21 23:59",
+            "time": 7,
+            "importance": 0.9
+        },
+        {
+            "_class": "Cloud Computing",
+            "name": "Quiz",
+            "due": "2019 April 14 23:59",
+            "time": 5,
+            "importance": 1
+        },
+        {
+            "_class": "Cloud Computing",
+            "name": "Quiz",
+            "due": "2019 April 21 23:59",
+            "time": 5,
+            "importance": 1
+        },
+        {
+            "_class": "Cloud Computing",
+            "name": "MP5",
+            "due": "2019 May 5 23:59",
+            "time": 7,
+            "importance": 0.9
+        },
+        {
+            "_class": "Cloud Computing",
+            "name": "Quiz",
+            "due": "2019 April 28 23:59",
+            "time": 7,
+            "importance": 1
+        },
+        {
+            "_class": "Cloud Computing",
+            "name": "Project Submission",
+            "due": "2019 May 5 23:59",
+            "time": 30,
+            "importance": 1
+        },
+        {
+            "_class": "Cloud Computing",
+            "name": "Final Exam",
+            "due": "2019 May 9 23:59",
+            "time": 18,
+            "importance": 1
+        },
+
+
+
+        {
+            "_class": "Data Mining",
+            "name": "Lesson 2.2 Quiz",
+            "due": "2019 March 8 23:59",
+            "time": 1,
+            "importance": 1
+        },
+        {
+            "_class": "Data Mining",
+            "name": "Lesson 2.3 Quiz",
+            "due": "2019 March 8 23:59",
+            "time": 4,
+            "importance": 1
+        },
+        {
+            "_class": "Data Mining",
+            "name": "K-Means Clustering",
+            "due": "2019 March 8 23:59",
+            "time": 6,
+            "importance": 0.9
+        },
+        {
+            "_class": "Data Mining",
+            "name": "Lesson 2.4 & 2.5 Quizzes",
+            "due": "2019 March 10 23:59",
+            "time": 3,
+            "importance": 1
+        },
+        {
+            "_class": "Data Mining",
+            "name": "Hierarchical Clustering",
+            "due": "2019 March 10 23:59",
+            "time": 6,
+            "importance": 0.9
+        },
+        {
+            "_class": "Data Mining",
+            "name": "Lesson 2.6 Quiz",
+            "due": "2019 March 17 23:59",
+            "time": 4,
+            "importance": 1
+        },
+        {
+            "_class": "Data Mining",
+            "name": "Clustering Validation",
+            "due": "2019 March 17 23:59",
+            "time": 6,
+            "importance": 0.9
+        },
+        {
+            "_class": "Data Mining",
+            "name": "Second Trimester",
+            "due": "2019 March 29 23:59",
+            "time": 17,
+            "importance": 0.9
+        },
+        {
+            "_class": "Data Mining",
+            "name": "Lesson 3.1 Quiz",
+            "due": "2019 April 7 23:59",
+            "time": 3,
+            "importance": 1
+        },
+        {
+            "_class": "Data Mining",
+            "name": "Decision Tree",
+            "due": "2019 April 7 23:59",
+            "time": 10,
+            "importance": 0.9
+        },
+        {
+            "_class": "Data Mining",
+            "name": "Lesson 3.2 & 3.3 Quizzes",
+            "due": "2019 April 14 23:59",
+            "time": 3,
+            "importance": 1
+        },
+        {
+            "_class": "Data Mining",
+            "name": "Naive Bayes",
+            "due": "2019 April 14 23:59",
+            "time": 6,
+            "importance": 0.9
+        },
+        {
+            "_class": "Data Mining",
+            "name": "Lesson 3.4 & 3.5 Quizzes",
+            "due": "2019 April 21 23:59",
+            "time": 3,
+            "importance": 1
+        },
+        {
+            "_class": "Data Mining",
+            "name": "Lesson 3.6 Quizzes",
+            "due": "2019 April 28 23:59",
+            "time": 2.5,
+            "importance": 1
+        },
+        {
+            "_class": "Data Mining",
+            "name": "Final Trimester",
+            "due": "2019 May 3 23:59",
+            "time": 17,
+            "importance": 0.9
         }
       ]
 }

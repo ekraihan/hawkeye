@@ -2,10 +2,15 @@
   "name": "college_alg",
   "version": "1.0.0",
   "description": "",
-  "main": "class_alg.js",
+  "main": "hawk.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "alasql": "^0.4.11",
+    "date-prompt": "^0.7.0",
+    "ml-matrix": "^5.2.1"
+  }
 }

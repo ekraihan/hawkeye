@@ -1,6 +1,9 @@
 var todos = require("./todo.json").todos
 var alasql = require("alasql")
-const {SingularValueDecomposition, Matrix} = require("ml-matrix")
+const {
+  // SingularValueDecomposition,
+  Matrix
+} = require("ml-matrix")
 
 function rate_dates(date_array){
     var diff_array = []
@@ -54,10 +57,11 @@ todos.forEach((todo) => {
 })
 
 var data_matrix = new Matrix(data_matrix)
+
 var final_data = data_matrix.mmul(new Matrix([
-                            [.6],
-                            [.2],
-                            [.2]
+                            [.6], // Importance
+                            [.2], // Time
+                            [.2]  // Urgency
                         ])).to1DArray()
 
 final_data.forEach((data,index) => {
@@ -70,13 +74,9 @@ var orderd_work = alasql("Select name, _class, due, rating, time_u, importance f
     + "\n"
     + "  Time: " + object.time_u
     + "\n"
-    + "  Due: " + object.due
+    + "  Due: " + new Date(object.due).toString().split(' ').slice(0,5).join(' ')
     + "\n"
     + "  Rating: " + object.rating.toFixed(4)
     + "\n").reverse()
 
 orderd_work.forEach(thing => console.log(thing))
-
-
-
-// todos
