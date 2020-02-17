@@ -59,9 +59,9 @@ todos.forEach((todo) => {
 var data_matrix = new Matrix(data_matrix)
 
 var final_data = data_matrix.mmul(new Matrix([
-                            [.6], // Importance
-                            [.2], // Time
-                            [.2]  // Urgency
+                            [.3], // Importance
+                            [.3], // Time
+                            [.4]  // Urgency
                         ])).to1DArray()
 
 final_data.forEach((data,index) => {
