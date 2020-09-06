@@ -1,4 +1,4 @@
-# Hawkeye
+ # Hawkeye
 Hawkeye is a class scheduler designed to help you know what tasks to complete next in your busy life. Here are the steps to get started.
 
 1. run `npm install`
