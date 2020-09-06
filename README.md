@@ -17,6 +17,7 @@ Hawkeye is a class scheduler designed to help you know what tasks to complete ne
 2. If you are ready to take a break on the first recommended todo, consider doing the next todo.
 
 ### Ideas
+- Be able to mark an item as "blocked" which puts it into an ordered "blocked" list (ordered by the algorithm so that you know which itms to bug people about) and will not show that item in the "next up" list (unless the next thing to do is bug the blocker?)
 - Track time taken 
 - Machine learns how long specific items (paper, project, etc.) in a specific class
 - Specify prime times
