@@ -17,12 +17,12 @@ Hawkeye is a class scheduler designed to help you know what tasks to complete ne
 2. If you are ready to take a break on the first recommended todo, consider doing the next todo.
 
 ### Ideas
-Track time taken 
-Machine learns how long specific items (paper, project, etc.) in a specific class
-Specify prime times
-Specify not study/work time
-Rank courses, then rank tasks within course
-Block out a traveling/no work time
-Fit algorithm to client
+- Track time taken 
+- Machine learns how long specific items (paper, project, etc.) in a specific class
+- Specify prime times
+- Specify not study/work time
+- Rank courses, then rank tasks within course
+- Block out a traveling/no work time
+- Fit algorithm to client
 
-Make it generic enough that user can specify criticalness/rank/importance by certain field eg (cost of a bid, desire to understand, etc.)
+- Make it generic enough that user can specify criticalness/rank/importance by certain field eg (cost of a bid, desire to understand, etc.)
