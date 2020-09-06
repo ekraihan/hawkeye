@@ -17,7 +17,7 @@ Hawkeye is a class scheduler designed to help you know what tasks to complete ne
 2. If you are ready to take a break on the first recommended todo, consider doing the next todo.
 
 ### Ideas
-Track time taken
+Track time taken 
 Machine learns how long specific items (paper, project, etc.) in a specific class
 Specify prime times
 Specify not study/work time
