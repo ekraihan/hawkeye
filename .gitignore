@@ -1,2 +1,4 @@
 node_modules/*
 fa17.json
+*.code-workspace
+conda_env/**
